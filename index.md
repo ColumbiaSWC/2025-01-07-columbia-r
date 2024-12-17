@@ -468,3 +468,14 @@ Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+{% if site.carpentry == "swc" %}
+<div id="data">
+<h3>Data Used in the Lessons</h3>
+Make sure to download the required data for the Shell lesson:
+
+<ul>
+<li><a href="https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip">shell-lesson-data.zip</a></li>
+</ul>
+{% endif %}
+
+</div>
